@@ -13,7 +13,7 @@ jobs:
       with:
         python-version: 3.8
     - name: Checkout Code
-      uses: actions/checkout
+      uses: actions/checkout@v4
 
     - name: Install dependencies
       run: |
